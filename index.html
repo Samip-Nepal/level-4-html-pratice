@@ -55,12 +55,13 @@
         </tr>
         </tbody>
     </table> -->
+    <h2><u>Registration form</u> </h2>
     <form action="/action.php">
-        <h3>Put the password and user name</h3>
+        <h4>Put the password and user name</h4>
       <input type="text" placeholder="User name">  
       <input type="password" placeholder="password"> 
       <br>
-      <h3>Select the class</h3>
+      <h4>Select the class</h4>
       <label for="101">
       <input type="radio" value="class XI" name="class" id="101">Class XI
       </label>
@@ -68,7 +69,7 @@
       <input type="radio" value="class XII" name="class" id="102">Class XII
       </label>
       <br>
-      <h3>Select number of subject you like.</h3>
+      <h4>Select number of subject you like.</h4>
       <label for="Math">
         <input type="checkbox"value="Math"name="Subject"id="101">Math
       </label>
@@ -82,7 +83,16 @@
         <input type="checkbox"value="Chem"name="Subject" id="104">Chem
       </label>
       <br><br>
+      Select your city:
+      <select name="City" id="101">City
+      <option value="Ktm">Ktm</option>
+      <option value="Lalitpur">Lalitpur</option>
+      <option value="Bhairahawo">Bhairahawo</option>
+      </select>
+      <br><br>
       <textarea name=" Feedback" id="" cols="50" rows="5"placeholder="Give us some feedback">Feedback </textarea>
+      <br>
+     <input type="submit" value="submit">
     </form>
 </main>
 <body>
